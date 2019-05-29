@@ -1,0 +1,110 @@
+
+html,body{
+    background-color: rgb(236, 235, 235);
+}
+li{
+    list-style: none;
+}
+
+.nav1 {
+    
+    width: 100%;
+    /* text-align: center; */
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.nav1 input{
+    height: .4rem;
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: .05rem;
+    position: relative;
+    
+}
+.nav1 div{
+    overflow: hidden;
+    position: relative;
+    padding: .1rem .2rem;
+}
+.nav1 div a{
+    font-size: .2rem;
+    position: absolute;
+    top: .15rem;left: 2.5rem;
+    display: inline-block;
+    width: .6rem;
+    height: .4rem;
+
+}
+.nav1 div span{
+    display: inline-block;
+    width: .15rem;
+    height: .2rem;
+    background: url("../image/SecondHandList/search_03.png")no-repeat;
+    background-size: 100% 100%;
+    position: absolute;;
+    top: .05rem;
+    left: .2rem;
+}
+.nav2{
+    height: .5rem;
+    background-color: #fff;
+}
+.nav2 ul{
+    height: .5rem;
+    width: 100%;
+    display: flex;
+   border-bottom: 1px solid #ccc;
+   border-top: 1px solid #ccc;
+   position: relative;
+}
+.nav2 ul li a{
+    font-size: .2rem;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    padding-left:.2rem ;
+
+}
+.nav2 ul li{
+    flex: 2.5;
+    line-height: 50%
+}
+.nav2_ul_li:nth-child(1) span{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background: url("../image/my/timg.jpg")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: .15rem;left: .7rem;
+}
+.nav2_ul_li:nth-child(2) span{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background: url("../image/my/timg.jpg")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: .15rem;left: 1.5rem;
+}
+.nav2_ul_li:nth-child(3) span{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background: url("../image/my/timg.jpg")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: .15rem;left: 2.3rem;
+}
+.nav2_ul_li:nth-child(4) span{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background: url("../image/my/timg.jpg")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: .15rem;left: 3rem;
+}

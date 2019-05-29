@@ -1,0 +1,58 @@
+
+.imgs img{
+    width: 0.81rem;
+    height: 0.81rem;
+}
+
+
+
+section .ut{
+    margin: 0 0.2rem;
+}
+section .ut li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0.2rem 0; */
+    border-bottom: 1px solid red
+}
+.text h3{
+    font-size: 0.18rem;
+    width: 1.87rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.text p{
+    font-size: 0.12rem;
+    padding: 0.05rem 0;
+    color: #000;
+    overflow: hidden;
+}
+.text span{
+    color: #ff8a00;
+    float: right;
+}
+.text p a{
+    color: #849aae;
+    background: #f4f7f9;
+    padding: 0.02rem 0.04rem;
+}
+section ul li:first-child{
+    border-bottom: 1px solid rgba(204, 204, 204, 0)
+}
+
+
+
+.nnn{
+    width: 100%;
+    height:100%;
+    background: #000;
+    opacity: .6;
+    position: fixed;
+    display: none;
+}
+
+
+
+
